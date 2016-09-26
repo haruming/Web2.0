@@ -1,0 +1,48 @@
+body {
+	background-image: url("bread.jpg");
+	background-size: 50%;
+}
+
+div.logo {
+	text-align: center;
+	font-family: "Century Gothic", "Futura", "Verdana";
+	font-weight: bold;
+	font-style: italic;
+	color: #793301;
+	background-color: rgba(255,255,255,0.5);
+	padding: 321px;
+}
+
+ul {
+	font-family: "Century Gothic", "Futura", "Verdana";
+	font-size: 30pt;
+	text-align: left;
+	list-style-image: url("cakeicon.ico");
+	list-style-position: inside;
+	font-weight: bold;
+	color: #990099;
+}
+
+.header {
+	margin: 0px;
+    overflow: hidden;
+    background-color: #000000;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.column {
+    width: 450px;
+    float: left;
+    border-right: 2px solid #FFFFFF;
+}
+
+.column a {
+	display: block;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+}
