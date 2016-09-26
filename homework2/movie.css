@@ -1,0 +1,209 @@
+/*设置整个页面的一些属性布局，字体大小，以及banner的属性*/
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url("image/bannerbackground.png"), url("image/background.png");
+	background-repeat: repeat-x, repeat;
+	background-attachment: scroll, fixed;
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: 8pt;
+	text-align: center;
+}
+
+/*设置标题的css样式表*/
+.heading {
+	text-align: center;
+	font-family: "Tahoma", "Verdana", sans-serif;
+	font-size: 24pt;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+/*设置右下角的信息列表dl中的内容dd的css样式*/
+.dcontent {
+	padding-bottom: 1em;
+	padding-right: 10px;
+	padding-left: 15px;
+}
+
+/*设置右下角信息列表dl中每组信息的小标题的css样式*/
+.dtitle {
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+/*设置整个内容包括左边和右边部分的布局，使之被黑色border包住*/
+#overall {
+	border: 4px solid gray;
+	width: 800px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+}
+
+/*设置左上角的绿色bar的css样式表（32%，88 reviews total等等）*/
+#rottenline {
+	background-image: url("image/rottenbackground.png");
+	background-repeat: repeat-x;
+	width: 550px;
+	height: 83px;
+}
+
+#rottenpicture {
+	float: left;
+}
+
+#rating {
+	float: left;
+}
+
+/*设置绿色bar里面的“32%”的css样式表*/
+#redbig {
+	font-size: 48pt;
+	color: rgb(255, 0, 0);
+	font-weight: bold;
+	margin-top: 7px;
+	display: inline-block;
+}
+
+/*设置绿色bar里的“88 reviews total”的css样式表*/
+#smallwhite {
+	font-size: 8pt;
+	color: #FFFFFF;
+	display: inline-block;
+}
+
+/*将overall中的右边部分float到右边（包括图片+信息表）*/
+#overview {
+	float: right;
+}
+
+/*设置页面顶部banner的css样式*/
+#banner {
+	text-align: center;
+	height: 50px;
+}
+
+/*设置右下角两个图片的css样式*/
+
+#htmlvalidator {
+	position: fixed;
+	bottom: 32px;
+	right: 0;
+}
+
+#cssvalidator {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+/*将overall中的部分float到左边（包括每个人的信息和他们的评论）*/
+#reviews {
+	float: left;
+}
+
+/*将评论分成两个div，左边四个为第一个div，定义为firstcolumn*/
+#firstcolumn {
+	float: left;
+}
+
+/*右边四个评论为第二个div，定义为secondcolumn*/
+#secondcolumn {
+	float: left;
+}
+
+/*将页面右下角的信息列表定义为definitionlist，并定义css样式*/
+#definitionlist {
+	font-family: Arial, sans-serif;
+	font-size: 8pt;
+	width: 250px;
+	text-align: left;
+	background-color: #A2B964;
+	margin-top: -3px;
+	margin-bottom: -12px;
+	padding-top: 1em;
+}
+
+/*定义“(1-8) of 88”的css样式表*/
+#bottom {
+	text-align: center;
+	background-color: #A2B964;
+	clear: right;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/*设置bottom上下高度*/
+#bottomcontent {
+	margin: 0px;
+}
+
+/*定义firstcolumn左边四个影评中的文字的css样式表*/
+.quote1 {
+	width: 238.5px;
+	text-align: left;
+	font-size: 8pt;
+	border: 2px solid gray;
+	font-weight: bold;
+	padding: 8px;
+	margin-left: 11px;
+	background-color: #E1D697;
+}
+
+/*定义secondcolumn右边四个影评中文字的css样式表*/
+.quote2 {
+	width: 238.5px;
+	text-align: left;
+	font-size: 8pt;
+	border: 2px solid gray;
+	font-weight: bold;
+	padding: 8px;
+	background-color: #E1D697;
+	margin-left: 11px;
+}
+
+/*定义影评中的rotten.gif图标或番茄图标的css样式表*/
+.icon {
+	float: left;
+	padding-left: 0px;
+	padding-right: 5px;
+}
+
+/*第一个影评的id*/
+#specificquote1 {
+	height: auto;
+}
+
+/*第三个影评的id，即“It stinks！”的id*/
+#specificquote2 {
+	overflow: hidden;
+}
+
+/*定义网友个人信息的css样式表*/
+.people {
+	text-align: left;
+	padding-bottom: 3em;
+	overflow: hidden;
+}
+
+/*定义每个网友来源的css样式表*/
+.people span {
+	font-style: italic;
+}
+
+/*定义左边每个人的“小人”图标的css样式表*/
+.peopleicon1 {
+	float: left;
+	padding-left: 10px;
+	padding-right: 5px;
+}
+
+/*定义右边每个人的“小人”图标的css样式表*/
+.peopleicon2 {
+	float: left;
+	padding-left: 10px;
+	padding-right: 5px;
+}
+
