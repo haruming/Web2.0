@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Simple Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="calculatorjs.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="subtitle">Simple Calculator</h1>
+        <div class="content">
+
+            <div class="viewbar">
+                <input type="text" value="0" id="show">
+            </div>
+
+            <div class="buttonbar">
+                <input class="board" type="button" value="7" onclick="onbutton(7);">
+                <input class="board" type="button" value="8" onclick="onbutton(8);">
+                <input class="board" type="button" value="9" onclick="onbutton(9);">
+                <input class="board" type="button" value="/" onclick="onbutton_operator(this);">
+                <input class="board" type="button" value="4" onclick="onbutton(4);">
+                <input class="board" type="button" value="5" onclick="onbutton(5);">
+                <input class="board" type="button" value="6" onclick="onbutton(6);">
+                <input class="board" type="button" value="*" onclick="onbutton_operator(this);">
+                <input class="board" type="button" value="1" onclick="onbutton(1);">
+                <input class="board" type="button" value="2" onclick="onbutton(2);">
+                <input class="board" type="button" value="3" onclick="onbutton(3);">
+                <input class="board" type="button" value="-" onclick="onbutton_operator(this);">
+                <input class="board" type="button" value="0" onclick="onbutton(0);">
+                <input class="board" type="button" value="." onclick="onbutton_point();">
+                <input class="board" type="button" value="←" onclick="onbutton_backspace();">
+                <input class="board" type="button" value="+" onclick="onbutton_operator(this);">
+                <input class="board" type="button" value="(" onclick="onbutton_left_bracket();">
+                <input class="board" type="button" value=")" onclick="onbutton_right_bracket();">
+                <input class="board" type="button" value="CE" onclick="onbutton_clear();">
+                <input class="board" type="button" value="=" onclick="onbutton_equal();">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
